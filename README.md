@@ -12,16 +12,16 @@ https://www.bilibili.com/video/av62800055
 * `git commit -m"[description]"` 提交, 并添加描述
 * `git push origin` 默认将缓存区的文件提交到远程仓库的master文件下
 
-## 使用`BootStrap`简化学习流程
+## 1. 使用`BootStrap`简化学习流程
 
-### 1. 下载`BootStrap`
+### 1.1 下载`BootStrap`
 **下载地址**
 * https://v3.bootcss.com/getting-started/#download
 ![download_bootstrap](src/main/resources/static/image/doc/download_bootstrap.png)
 
 
 
-### 使用`BootStrap`导航条
+### 1.2 使用`BootStrap`导航条
 **导航条地址**
 * https://v3.bootcss.com/components/#navbar
 **复制导航条代码**
@@ -82,7 +82,17 @@ https://www.bilibili.com/video/av62800055
 ```
 
 
-### 加载`Bootstrap`后无法显示样式
+### 1.3 加载`Bootstrap`后无法显示样式
 **原因**
 ![cannotloadstylesheet](src/main/resources/static/image/problem/problem01_cannot_load_stylesheet.png)
 * 未添加`type="text/javascript"`
+
+## 2. 注册`github`app
+### 2.1 注册地址
+* https://github.com/settings/apps/new
+
+### 2.2 填写相关信息
+![create_githubapp](src/main/resources/static/image/doc/create_github_app.png)
+
+### 2.3 查看已注册的app的信息
+![githubapp_information](src/main/resources/static/image/doc/githubapp_information.png)
