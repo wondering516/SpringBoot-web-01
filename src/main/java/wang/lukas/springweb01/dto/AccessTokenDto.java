@@ -4,6 +4,8 @@ package wang.lukas.springweb01.dto;
  * @Author: CoffeeChicken
  * @date: 2020/3/14 15:38
  */
+
+// data transform object
 public class AccessTokenDto {
     private String client_id;
     private String client_secret;
