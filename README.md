@@ -96,3 +96,24 @@ https://www.bilibili.com/video/av62800055
 
 ### 2.3 查看已注册的app的信息
 ![githubapp_information](src/main/resources/static/image/doc/githubapp_information.png)
+
+### 2.4 添加注解信息
+`properties`内文件内容
+```java
+github.client.id=Iv1.a02d2877c0c6185d
+github.client.secret=f4c1a2c625563a63b1487e5d74a11ec579f995c3
+github.redirect.uri=http://localhost:8887/callback
+```
+* 在Java类中调用
+```java
+    @Value("${github.client.id}")
+    private String clientId;
+
+    @Value("${github.client.secret}")
+    private String clientSecret;
+
+    @Value("${github.redirect.uri}")
+    private String redirectUri;
+```
+
+
